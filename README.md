@@ -1,8 +1,12 @@
+A challenge I did to show case my coding organization, style, etc.
+
 Project consists of:
 - Autolayout
 - NRLSession
 - Cocoapods
     - Realm for local storage
+- All orientation (landscape & portrait)
+- MVC
 
 Please open Challenge.xcworkspace.
 
