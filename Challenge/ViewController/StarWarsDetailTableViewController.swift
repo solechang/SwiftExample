@@ -24,6 +24,12 @@ class StarWarsDetailTableViewController: UITableViewController {
         super.viewDidLoad()
         self.setUpDetails()
     }
+    // Upside down portrait mode
+    open override var supportedInterfaceOrientations: UIInterfaceOrientationMask{
+        get {
+            return .all
+        }
+    }
         
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
             self.tableView.reloadData()
