@@ -1,19 +1,19 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'PhunChallenge' do
+target 'Challenge' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for PhunChallenge
+  # Pods for Challenge
   pod 'RealmSwift'
   
-  target 'PhunChallengeTests' do
+  target 'ChallengeTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'PhunChallengeUITests' do
+  target 'ChallengeUITests' do
     inherit! :search_paths
     # Pods for testing
   end

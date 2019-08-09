@@ -4,7 +4,7 @@ Project consists of:
 - Cocoapods
     - Realm for local storage
 
-Please open PhunChallenge.xcworkspace.
+Please open Challenge.xcworkspace.
 
 Observations & Notes:
 - iPhone X’s do not conform to upside down portrait mode.
@@ -16,7 +16,7 @@ Observations & Notes:
     - Location 1
     - Location 2
     - Phone Number.
-- Regarding “App should function with or without network connection after the first time the data is loaded”,  I have used Realm to store locally the basic info other than the images since that is to make the ‘app functional’. But, if I were to display images locally, I would have used a framework like SDWebImage to cache and load images without network connection. But the reason why I didn’t do so is because I wanted to show Error Handling for the invalid URL image specifically: (https://raw.githubusercontent.com/phunware-services/dev-interview-homework/master/Images/This_url_intentionally_404s_to_test_error_handling.jpg). In addition, storing data images locally would be an overkill because what if there were 1000+ images? However, I did use NSCache to implement simple, lightweight image caching.
+- Regarding “App should function with or without network connection after the first time the data is loaded”,  I have used Realm to store locally the basic info other than the images since that is to make the ‘app functional’. But, if I were to display images locally, I would have used a framework like SDWebImage to cache and load images without network connection. But the reason why I didn’t do so is because I wanted to show Error Handling for the invalid URL image specifically: (/Images/intentional_404s_to_test_error_handling.jpg). In addition, storing data images locally would be an overkill because what if there were 1000+ images? However, I did use NSCache to implement simple, lightweight image caching.
 - What exactly is the user trying to share? As for this implementation, I set up UIActivityViewController to send everything including: image, date, title, description, locationline1, locationline2, and phone.
 
 Optional animation plans:
@@ -26,6 +26,5 @@ Optional animation plans:
 Challenges:
 - The hardest part of this challenge was to make sure all the UI/UX work seamlessly. Are the users going to see the correct info? What information does the user want to see? What happens when I double/triple button tap real fast? Does the portrait to landscape (and vice-versa) mode work smoothly, especially when user switches orientation for iPhone on the Master’s ViewController?
 
-Total time = ~7 hours
 
 Thank you for your time!
