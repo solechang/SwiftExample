@@ -24,8 +24,8 @@ class StarWarsCollectionViewController: UICollectionViewController {
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-//        self.getInfo()
-        self.setUpJSon()
+        self.getInfo()
+
     }
     override func viewWillDisappear(_ animated: Bool) {
         self.title = ""
