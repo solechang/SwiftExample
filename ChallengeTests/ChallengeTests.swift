@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import PhunChallenge
+@testable import Challenge
 
 class ChallengeTests: XCTestCase {
 

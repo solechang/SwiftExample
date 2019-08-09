@@ -9,24 +9,24 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--PHUN APP-->
+        <!--APP-->
         <scene sceneID="pFP-e4-5c3">
             <objects>
-                <collectionViewController id="Ww1-bV-IKz" customClass="StarWarsCollectionViewController" customModule="PhunChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="Ww1-bV-IKz" customClass="StarWarsCollectionViewController" customModule="Challenge" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="oCg-wt-G09">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <collectionViewLayout key="collectionViewLayout" id="wNF-Bd-qtQ" customClass="ColumnFlowLayout" customModule="PhunChallenge" customModuleProvider="target"/>
+                        <collectionViewLayout key="collectionViewLayout" id="wNF-Bd-qtQ" customClass="ColumnFlowLayout" customModule="Challenge" customModuleProvider="target"/>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="starwarsCell" id="V7Z-AF-nkq" customClass="StarWarsCollectionViewCell" customModule="PhunChallenge" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="starwarsCell" id="V7Z-AF-nkq" customClass="StarWarsCollectionViewCell" customModule="Challenge" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeHolder" translatesAutoresizingMaskIntoConstraints="NO" id="yNk-Sz-Swj" customClass="ImageLoader" customModule="PhunChallenge" customModuleProvider="target">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeHolder" translatesAutoresizingMaskIntoConstraints="NO" id="yNk-Sz-Swj" customClass="ImageLoader" customModule="Challenge" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCM-ce-Qmz">
@@ -99,7 +99,7 @@
                             <outlet property="delegate" destination="Ww1-bV-IKz" id="4PD-Wc-Sap"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="PHUN APP" id="gbQ-Ac-6hr"/>
+                    <navigationItem key="navigationItem" title="APP" id="gbQ-Ac-6hr"/>
                     <connections>
                         <segue destination="LL1-0c-h0h" kind="show" identifier="detailsSegue" id="9YE-60-3Ll"/>
                     </connections>
@@ -111,7 +111,7 @@
         <!--Star Wars Detail Table View Controller-->
         <scene sceneID="JSg-32-8AB">
             <objects>
-                <tableViewController id="LL1-0c-h0h" customClass="StarWarsDetailTableViewController" customModule="PhunChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="LL1-0c-h0h" customClass="StarWarsDetailTableViewController" customModule="Challenge" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="cWa-3a-8U0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,7 +126,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dfa-jq-DUk" customClass="ImageLoader" customModule="PhunChallenge" customModuleProvider="target">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dfa-jq-DUk" customClass="ImageLoader" customModule="Challenge" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sz1-Oe-U7b">

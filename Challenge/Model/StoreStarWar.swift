@@ -1,6 +1,6 @@
 //
 //  StoreStarWar.swift
-//  PhunChallenge
+//  Challenge
 //
 //  Created by Chang Choi on 8/3/19.
 //  Copyright © 2019 solechang. All rights reserved.

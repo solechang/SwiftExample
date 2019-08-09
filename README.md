@@ -5,7 +5,7 @@ Project consists of:
 - NRLSession
 - Cocoapods
     - Realm for local storage
-- All orientation (landscape & portrait)
+- All orientation (landscape & portrait) including all iOS sizes iPad & iPhones
 - MVC
 
 Please open Challenge.xcworkspace.
