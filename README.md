@@ -12,8 +12,6 @@ Please open Challenge.xcworkspace.
 
 Observations & Notes:
 - iPhone X’s do not conform to upside down portrait mode.
-- Where should phone number be displayed? The phone number is not displayed in the given wireframe.
-    - The instructions of the design wireframe doesn’t match the given data response models
 - The description model is usually a very long String and I believe it shouldn’t be included in the master view’s cell (StarWarsCollectionViewController). The StarWarsDetailViewController will show the description as it should since it is the detail of the model. Instead, I displayed the masterViewCell to look more iOS UI/UX with what I believe is the most important content in the order of:
     - Date
     - Title
