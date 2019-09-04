@@ -27,6 +27,3 @@ Optional animation plans:
 
 Challenges:
 - The hardest part of this challenge was to make sure all the UI/UX work seamlessly. Are the users going to see the correct info? What information does the user want to see? What happens when I double/triple button tap real fast? Does the portrait to landscape (and vice-versa) mode work smoothly, especially when user switches orientation for iPhone on the Master’s ViewController?
-
-
-Thank you for your time!
