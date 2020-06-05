@@ -1,4 +1,5 @@
-A challenge I did to show case my coding organization, style, etc.
+About:
+- Challenge project exemplifies my coding organization, style, etc.
 
 How to start app:
 - Please `pod install` in project directory
@@ -21,7 +22,7 @@ Observations & Notes:
     - Location 1
     - Location 2
     - Phone Number.
-- Regarding “App should function with or without network connection after the first time the data is loaded”,  I have used Realm to store locally the basic info other than the images since that is to make the ‘app functional’. But, if I were to display images locally, I would have used a framework like SDWebImage to cache and load images without network connection. But the reason why I didn’t do so is because I wanted to show Error Handling for the invalid URL image specifically: (https://raw.githubusercontent.com/solechang/SwiftExample/master/Images/intentional_404_error_handling.jpg). In addition, storing data images locally would be an overkill because what if there were 1000+ images? However, I did use NSCache to implement simple, lightweight image caching.
+- I have used Realm to store locally the basic info other than the images since that is to make the ‘app functional’. But, if I were to display images locally, I would have used a framework like SDWebImage to cache and load images without network connection. But the reason why I didn’t do so is because I wanted to show Error Handling for the invalid URL image specifically: (https://raw.githubusercontent.com/solechang/SwiftExample/master/Images/intentional_404_error_handling.jpg). In addition, storing data images locally would be an overkill because what if there were 1000+ images? However, I did use NSCache to implement simple, lightweight image caching.
 - What exactly is the user trying to share? As for this implementation, I set up UIActivityViewController to send everything including: image, date, title, description, locationline1, locationline2, and phone.
 
 Optional animation plans:
