@@ -1,5 +1,8 @@
 A challenge I did to show case my coding organization, style, etc.
 
+How to start app:
+- Please `pod install` in project directory
+
 Project consists of:
 - Autolayout
 - NRLSession
@@ -12,7 +15,7 @@ Please open Challenge.xcworkspace.
 
 Observations & Notes:
 - iPhone X’s do not conform to upside down portrait mode.
-- The description model is usually a very long String and I believe it shouldn’t be included in the master view’s cell (StarWarsCollectionViewController). The StarWarsDetailViewController will show the description as it should since it is the detail of the model. Instead, I displayed the masterViewCell to look more iOS UI/UX with what I believe is the most important content in the order of:
+- The description model is usally a very long String and I believe it shouldn’t be included in the master view’s cell (StarWarsCollectionViewController). The StarWarsDetailViewController will show the description as it should since it is the detail of the model. Instead, I displayed the masterViewCell to look more iOS UI/UX with what I believe is the most important content in the order of:u
     - Date
     - Title
     - Location 1
