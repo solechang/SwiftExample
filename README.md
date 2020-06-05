@@ -3,6 +3,7 @@ About:
 
 How to start app:
 - Please `pod install` in project directory
+- Open Challenge.xcworkspace
 
 Project consists of:
 - Autolayout
@@ -11,8 +12,6 @@ Project consists of:
     - Realm for local storage
 - All orientation (landscape & portrait) including all iOS sizes iPad & iPhones
 - MVC
-
-Please open Challenge.xcworkspace.
 
 Observations & Notes:
 - iPhone X’s do not conform to upside down portrait mode.
